@@ -1,5 +1,4 @@
-#--------------- Dict structure ---------------#
-The 'CityMeshAttributes' folder contains statistical data on feature elements of 1km*1km grids, with the feature data for each grid in the city Shanghai being stored in a dict format as a single json file, with the file name being the map ID of the grid.
+The 'CityMeshAttributes' folder contains statistical data on feature elements of 1km*1km grids, with the feature data for each grid in the city Shanghai being stored in a dict format as a single json file, with the file name being the map ID of the grid. The original data is obtained from OpenStreetMap, and then further processed to obtain the feature vectors in the json files. The feature embeddings are spectral embeddings, trained through the SpectralNet. Here, we we directly provide the final trained results.
 {
 	"id": File name/Map ID,
 
