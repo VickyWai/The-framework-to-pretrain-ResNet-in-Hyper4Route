@@ -96,7 +96,7 @@ if __name__ == '__main__':
     args.kg_embedding_path = ".\\CityKGEmbedding\\" + args.city
     args.TransE_model_path = ".\\CityKGEmbedding\\" + args.city + "\\model\\"
     # args.pretrained_weight_path = ".\\ViT-B_16\\base_p16_224_backbone.pth"  # ImageEncoder: ViT
-    args.pretrained_weight_path = ".\\model_weights\\checkpoint_100.tar"  # ImageEncoder: ResNet
+    args.pretrained_weight_path = ".\\pretrained_ResNet.tar"  # ImageEncoder: ResNet
     args.model_path = os.path.join(os.getcwd(), 'model_save')
 
     seed = args.seed
